@@ -16,7 +16,9 @@ host, username and password are optional fields.
 - --collection: Collection name
 - --file: file location
 - --jsonArray: Passed an array of json objects
-
+```js
+mongoimport  --db test --collection users --file C:\Users\iamra\OneDrive\Desktop\generated.json --jsonArray
+```
 ## BLOCK-writeCode
 
 Go to `https://www.json-generator.com/`
