@@ -186,7 +186,7 @@ db.users.insertMany([
     },
   ]);
 
-  db.users.find({sports :{$all:['cricket']}});
+  db.users.find({gender : 'Male' }, {sports : 'cricket'});
   db.users.update({name: "Steve Ortega"},{$push:{sports:'golf'}})
-  db.user.find({sports : {$in:['cricket','football']}});
-  
+  db.users.find({sports : {$in:['cricket','football']}});
+  db.users.find({name : /ri/i});
